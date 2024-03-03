@@ -2,4 +2,4 @@
 
 BASEDIR=$(dirname $0)
 
-$BASEDIR/latest/chrome --user-data-dir="$BASEDIR/user-data-dir" $* &> /dev/null &
+$BASEDIR/latest/chrome-linux/chrome --user-data-dir="$BASEDIR/user-data-dir" $* &> /dev/null &
