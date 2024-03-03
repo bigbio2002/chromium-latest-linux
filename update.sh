@@ -27,5 +27,5 @@ echo "unzipping.."
 unzip $ZIP_FILE
 popd
 rm -f ./latest
-ln -s $REVISION/chrome-linux/ ./latest
+ln -s $REVISION ./latest
 
